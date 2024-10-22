@@ -1,4 +1,4 @@
-##Simulation codes for testing validation of PGA's global optimality
+# Simulation codes for testing validation of PGA's global optimality
 
 Please directly run mainfile.m to obtain the test results.
 
