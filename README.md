@@ -1,13 +1,5 @@
-# Simulation codes for testing validation of PGA's global optimality
+# Experiments for the NeurIPS Submission: A Locally Optimal Portfolio for m-Sparse Sharpe Ratio Maximization (mSSRM)
+There are 2 folders. Please read the README.md file in each folder to find how to use the corresponding contents.
 
-Please directly run mainfile.m to obtain the test results.
-
-Qp_gen: function for generating data Q and p.
-
-PGAforQP: function for iteratively solving a convex quadratic programming model without the m-sparse constraint by PGA.
-
-L0QuadProg: function for exhaustively enumerating support sets to obtain the globally optimal solution of model (3.7).
-
-prox_mpsparse: function for computing the proximity operator of the indicator function of m-sparse constraint.
-
-PGAforL0QuadProg: function for iteratively solving model (3.7) in the paper by PGA.
+1. `Codes_for_Experiments_in_Paper` contains the Matlab codes of mSSRM for the experiments already in the paper. 
+2. `Codes_for_Simulation` contains the simulation codes for testing validation of PGA's global optimality.
